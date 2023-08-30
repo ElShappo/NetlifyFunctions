@@ -1,0 +1,20 @@
+{
+	"siteId": "01300848-a7b9-44e3-b71d-92b95337d083",
+	"geolocation": {
+		"data": {
+			"city": "Moscow",
+			"country": {
+				"code": "RU",
+				"name": "Russia"
+			},
+			"subdivision": {
+				"code": "MOW",
+				"name": "Moscow"
+			},
+			"timezone": "Europe/Moscow",
+			"latitude": 55.7483,
+			"longitude": 37.6171
+		},
+		"timestamp": 1693394073869
+	}
+}
