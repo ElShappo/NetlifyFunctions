@@ -1,0 +1,20 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="button">Test netlify functions</button>
+    </button>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            console.log('DOMContentLoaded was fired');
+
+            button.addEventListener('click', async (e) => {
+                let response = await fetch('/.netlify/functions/test');
+            });
+        })
+    </script>
+</body>
+</html>
